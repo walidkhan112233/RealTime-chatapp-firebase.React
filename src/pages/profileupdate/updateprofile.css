@@ -1,0 +1,64 @@
+.profile{
+    min-height: 100vh;
+    background: linear-gradient(150deg,rgba(0, 0, 0, 0.932),rgb(23, 85, 43) ,rgb(14, 71, 64));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.profile-container{
+    color: white;
+    background: rgba(255, 255, 255, 0.226);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 50%;
+}
+.pfp{
+    max-width: 250px;
+    aspect-ratio: 1/1;
+    margin: 30px;
+    border-radius: 50%;
+}
+.profile form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+.profile form h3{
+    font-weight: 500;
+}
+.profile label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(247, 245, 245);
+    cursor: pointer;
+}
+.profile label:hover{
+    text-decoration: underline;
+}
+.avataricon{
+    width: 80px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+.profile input, textarea{
+    padding: 8px;
+    min-width: 300px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline-color: rgb(22, 141, 72);
+    background-color: rgba(245, 255, 247, 0.842);
+}
+.profile form button{
+    border: none;
+    color: white;
+    background: rgba(19, 57, 68, 0.699); 
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+}

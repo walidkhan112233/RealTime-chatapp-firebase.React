@@ -8,7 +8,12 @@ export default function LeftSidebar() {
             <div className="ls-nav">
                 <img src={AssestsIMG.logotxtRight} className='logo' />
                 <div className="menu">
-                    <img src={AssestsIMG.MenuIcon}      />
+                    <img src={AssestsIMG.MenuIcon} />
+                    <div className="sub-menu">
+                        <p>Edit Profile</p>
+                        <hr />
+                        <p>Logout</p>
+                    </div>
                 </div>
             </div>
             <div className="ls-search">

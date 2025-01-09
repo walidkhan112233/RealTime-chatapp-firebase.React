@@ -8,3 +8,6 @@
 img.dot{
   width: 15px !important;
 }
+.logo{
+  border-radius: 50%;
+}

@@ -3,7 +3,7 @@
 }
 
 .leftsidebar{
-    background: rgb(15, 15, 15);
+    background: rgb(15, 24, 24);
     color: white;
     height: 85vh;
 }
@@ -29,7 +29,7 @@
 }
 .ls-search{
     display: flex;
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(28, 37, 39);
     border-radius: 10px;
     align-items: center;
     gap: 10px;
@@ -74,8 +74,37 @@
     font-size: 3px;
 }
 .freinds:hover{
-    background-color: #3a3a3a;
+    background-color: #192b2c;
 }
 .freinds:hover span{
     color: #e7e7e7;
+}
+.ls-nav .menu{
+    position: relative;
+    padding: 10px 0px;
+}
+.menu .sub-menu{
+    position: absolute;
+    top: 80%;
+    right: 0;
+     width: 120px;
+     padding: 20px;
+     border-radius: 5px;
+     background-color: rgba(37, 67, 77, 0.801);
+     color: white;
+     font-weight: 400;
+     display: none;
+}
+.sub-menu hr{
+    border: none;
+    height: 1px;
+    background: rgb(177, 182, 181);
+    margin: 8px 0px;
+}
+.sub-menu p{
+    cursor: pointer;
+    font-size: 14px;
+}
+.menu:hover .sub-menu{
+    display: block;
 }

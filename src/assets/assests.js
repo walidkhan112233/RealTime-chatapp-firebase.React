@@ -15,7 +15,7 @@ import GreenDot from './green_dot.png';
 import helpicon from "./help_icon.png";
 import GalleryIcon from "./gallery_icon.png"
 import batmanpfp from "./batmanpfp.jpeg";
-
+import chitchatIcon from "./chitchatICON.png"
 const AssestsIMG = {    
     AvatarIcon,
     BackgroundHome,
@@ -34,6 +34,7 @@ const AssestsIMG = {
     helpicon,
     GalleryIcon,
     batmanpfp,
+    chitchatIcon,
 }
 
 

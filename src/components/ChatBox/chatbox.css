@@ -1,7 +1,7 @@
 .chat-box{
     height: 85vh;
     position: relative;
-    background-color: rgb(19, 19, 19);
+    background-color: rgba(20, 46, 45, 0.651);
 }
 .chat-user{
         padding: 10px 15px;
@@ -32,7 +32,7 @@
  align-items: center;
  gap: 12px;
  padding: 10px 15px;
- background: rgb(33, 33, 33);
+ background: rgb(26, 41, 44);
  position: absolute;
  bottom: 0;
  left: 0;
@@ -80,6 +80,28 @@
 .r-msg{
     flex-direction: row-reverse;
     justify-content: start;
+}
+.msg{
+    color: white;
+    background-color: rgb(8, 82, 82);
+    padding: 8px;
+    max-width: 200px;
+    font-size: 11px;
+    font-weight: 300;
+    border-radius: 8px 8px 0px 8px;
+    margin-bottom: 30px;
+}
+.r-msg .msg{
+    border-radius: 8px 8px 8px 0px;
+}
+.s-msg div,.r-msg div{
+    text-align: center;
+    font-size: 9px;
+}
+.msg-img{
+    max-width: 230px;
+    margin-bottom: 30px;
+    border-radius: 10px;
 }
 
 

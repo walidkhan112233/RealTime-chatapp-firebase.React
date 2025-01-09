@@ -18,6 +18,13 @@ export default function ChatBox() {
                     <p>3:30 PM</p>                    
                 </div>
             </div>
+            <div className="s-msg">
+                <img className='msg-img' src={AssestsIMG.MogPfp} />
+                <div>
+                    <img src={AssestsIMG.batmanpfp} />
+                    <p>3:30 PM</p>                    
+                </div>
+            </div>
             <div className="r-msg">
                 <p className="msg">Sorry, Batman</p>
                 <div>

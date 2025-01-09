@@ -1,6 +1,6 @@
 .chat{
     min-height: 100vh;
-    background: linear-gradient(150deg,rgb(107, 85, 37), rgb(8, 8, 8));
+    background: linear-gradient(150deg,rgba(0, 0, 0, 0.932),rgb(23, 85, 43) ,rgb(14, 71, 64));
     display: grid;
     place-items: center;
 }
